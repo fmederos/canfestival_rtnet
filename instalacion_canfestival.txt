@@ -1,0 +1,15 @@
++---------------------------+
+|Compilacion de CanFestival:
++---------------------------+
+
+Vajar fuentes de http://dev.automforge.net/
+
+Copiar la carpeta con can_rtnet en <pathCanfestival>/drivers/
+
+compilar con las opciones:
+
+1- ./configure --timers=xeno --can=rtnet
+2- make
+3- sudo make install
+
+Hay que incluir el path "/usr/local/include/canfestival" en C_INCLUDE_PATH
